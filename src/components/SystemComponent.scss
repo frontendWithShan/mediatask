@@ -1,0 +1,121 @@
+.system-component {
+    padding: 20px; /* Add the desired padding from the top */
+  
+    .system-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .icon {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+    }
+  
+    .system-options {
+      .option {
+        margin-bottom: 15px;
+  
+        label {
+          font-weight: bold;
+        }
+  
+        select {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .system-component {
+    // Your styling for the system component
+  
+    .system-options {
+      .option-row {
+        display: flex;
+        // justify-content: space-between;
+  
+        .small-option {
+          width: 45%; // Adjust the width as needed
+        }
+  
+        .small-select {
+          width: 100%; // Makes the select element fill its container
+          padding: 4px; // Adjust the padding as needed
+        }
+      }
+    }
+  }
+  
+  .system-component {
+    .system-options {
+      h4 {
+        margin-top: 20px;
+      }
+  
+      .radio-buttons {
+        display: flex;
+        // margin-top: 10px;
+  
+        label {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  .system-component {
+    padding: 20px;
+  
+    .system-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .icon {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+    }
+  
+    .system-options {
+      .option {
+        margin-bottom: 15px;
+  
+        label {
+          font-weight: bold;
+        }
+  
+        select {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+  
+      h4 {
+        margin-top: 20px;
+        color: purple;
+        font-weight: bold;
+      }
+  
+      .radio-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; /* Allow content to wrap to the next line when needed */
+  
+        label {
+          margin-right: 15px;
+          display: flex;
+          align-items: center;
+          
+          input[type="radio"] {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  

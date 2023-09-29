@@ -1,0 +1,62 @@
+/* src/components/CenterSection.scss */
+
+/* Style for the main container */
+.center-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+   
+    background-color: #f1f1f1; /* Set the desired background color */
+    padding: 90px 70px 90px 140px; /* Add padding for equal space from all sides */
+  }
+  
+  /* Style for the sidebar */
+  .sidebarz {
+    width: 20%; /* Set the width for the sidebar */
+    padding: 20px;
+    height: 550px;
+    background-color:#e0dede;
+    border-radius: 20px 0px 0px 20px;
+    color: black;
+  }
+  
+  /* Style for the content */
+  .content {
+    flex: 1; /* Take up the remaining space */
+    padding: 20px;
+     border-radius: 0px 20px 20px 0px;
+    height: 550px;
+    background-color: #fff;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  input {
+    // width: 100%;
+    
+    padding: 10px;
+    // margin: 20px 0;
+    border: 1px solid #ccc;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+  span{
+    padding: 10px;
+  }
+  .selected-item {
+    background-color: #f0f0f0; /* Define the background color for the selected item */
+  }
+  
