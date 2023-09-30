@@ -1,33 +1,64 @@
-/* src/components/CenterSection.scss */
 
-/* Style for the main container */
+
 .center-section {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center;
     height: 100vh;
-   
-    background-color: #f1f1f1; /* Set the desired background color */
-    padding: 90px 70px 90px 140px; /* Add padding for equal space from all sides */
-  }
-  
-  /* Style for the sidebar */
+    color: black;
+    background-color: #f1f1f1; 
+    padding: 90px 70px 90px 140px; 
+}
+.center-light{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  color: black;
+  background-color: white; 
+  padding: 90px 70px 90px 140px; 
+}
+.center-sections {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  color: black;
+  background-color: black; 
+  padding: 90px 70px 90px 140px;
+}
+
   .sidebarz {
-    width: 20%; /* Set the width for the sidebar */
+    width: 20%; 
     padding: 20px;
     height: 550px;
     background-color:#e0dede;
     border-radius: 20px 0px 0px 20px;
     color: black;
   }
-  
-  /* Style for the content */
+ 
+  .sidebarss {
+    width: 20%; 
+    padding: 20px;
+    height: 550px;
+   background-image:  linear-gradient(-120deg, #000000, #636466, #939598, #c7c8ca) !important;
+    border-radius: 20px 0px 0px 20px;
+    color: black;
+  }
+
   .content {
-    flex: 1; /* Take up the remaining space */
+    flex: 1; 
     padding: 20px;
      border-radius: 0px 20px 20px 0px;
     height: 550px;
     background-color: #fff;
+  }
+  .contentzz {
+    flex: 1; 
+    padding: 20px;
+     border-radius: 0px 20px 20px 0px;
+    height: 550px;
+    background-image:  linear-gradient(-120deg, #000000, #636466, #939598, #c7c8ca) !important;
   }
   
   h2 {
@@ -37,10 +68,8 @@
   }
   
   input {
-    // width: 100%;
-    
+ 
     padding: 10px;
-    // margin: 20px 0;
     border: 1px solid #ccc;
   }
   
@@ -57,6 +86,6 @@
     padding: 10px;
   }
   .selected-item {
-    background-color: #f0f0f0; /* Define the background color for the selected item */
+    background-color: #f0f0f0; 
   }
   

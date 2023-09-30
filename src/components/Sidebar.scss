@@ -1,6 +1,6 @@
-/* src/components/Sidebar.scss */
+
 body, html {
-    background-color: #f1f1f1; /* Replace with your desired background color */
+    background-color: #f1f1f1; 
   }
 .sidebar {
     position: fixed;
@@ -20,7 +20,7 @@ body, html {
   
       img {
         max-width: 50px;
-        margin-right: 10px; /* Add some spacing between the logo and text */
+        margin-right: 10px;
       }
   
       .logo-text {
@@ -29,15 +29,14 @@ body, html {
         font-size: 12px;
         font-weight: 600;
         color: black;
-        display: none; /* Initially, hide the text */
+        display: none; 
       }
     }
   
     &:hover .logo-text {
-      display: block; /* Show the text when the sidebar is hovered */
+      display: block; 
     }
   }
-  /* src/components/Sidebar.scss */
 
 
   
