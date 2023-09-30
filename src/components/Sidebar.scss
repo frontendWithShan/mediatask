@@ -1,43 +1,40 @@
+body,
+html {
+  background-color: #f1f1f1;
+}
 
-body, html {
-    background-color: #f1f1f1; 
-  }
 .sidebar {
-    position: fixed;
-    width: 55px;
-    height: 100%;
-    background-color: white;
-    transition: width 0.3s;
-  
-    &.open {
-      width: 180px;
+  position: fixed;
+  width: 55px;
+  height: 100%;
+  background-color: white;
+  transition: width 0.3s;
+
+  &.open {
+    width: 180px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 19px 10px 10px 17px;
+
+    img {
+      max-width: 50px;
+      margin-right: 10px;
     }
-  
-    .logo {
-      display: flex;
-      align-items: center;
-      padding: 19px 10px 10px 17px;
-  
-      img {
-        max-width: 50px;
-        margin-right: 10px;
-      }
-  
-      .logo-text {
-        padding: 0px 0px 0px 14px;
-        
-        font-size: 12px;
-        font-weight: 600;
-        color: black;
-        display: none; 
-      }
-    }
-  
-    &:hover .logo-text {
-      display: block; 
+
+    .logo-text {
+      padding: 0px 0px 0px 14px;
+
+      font-size: 12px;
+      font-weight: 600;
+      color: black;
+      display: none;
     }
   }
 
-
-  
-  
+  &:hover .logo-text {
+    display: block;
+  }
+}

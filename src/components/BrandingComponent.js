@@ -137,7 +137,7 @@ const handleImageUpload4 = (e) => {
   <div className="upload-box">
     <div className="image-preview">
       <div className="image-circle">
-        <img src={uploadedImage1 || 'your-image-url1.jpg'} alt="Image Preview 1" />
+        <img src={uploadedImage1 || 'your-image-url1.jpg'}  />
       </div>
     </div>
     <label htmlFor="file-upload1" className="upload-button" style={{ height: "17px", display: "flex", alignItems: "center", cursor: "pointer" }}>
@@ -155,7 +155,7 @@ const handleImageUpload4 = (e) => {
   <div className="upload-box">
     <div className="image-preview">
       <div className="image-circle">
-        <img src={uploadedImage2 || 'your-image-url2.jpg'} alt="Image Preview 2" />
+        <img src={uploadedImage2 || 'your-image-url2.jpg'}  />
       </div>
     </div>
     <label htmlFor="file-upload2" className="upload-button" style={{ height: "17px", display: "flex", alignItems: "center", cursor: "pointer" }}>
@@ -173,7 +173,7 @@ const handleImageUpload4 = (e) => {
   <div className="upload-box">
     <div className="image-preview">
       <div className="image-circle">
-        <img src={uploadedImage3 || 'your-image-url3.jpg'} alt="Image Preview 3" />
+        <img src={uploadedImage3 || 'your-image-url3.jpg'} />
       </div>
     </div>
     <label htmlFor="file-upload3" className="upload-button" style={{ height: "17px", display: "flex", alignItems: "center", cursor: "pointer" }}>
@@ -191,7 +191,7 @@ const handleImageUpload4 = (e) => {
   <div className="upload-box">
     <div className="image-preview">
       <div className="image-circle">
-        <img src={uploadedImage4 || 'your-image-url4.jpg'} alt="Image Preview 4" />
+        <img src={uploadedImage4 || 'your-image-url4.jpg'}  />
       </div>
     </div>
     <label htmlFor="file-upload4" className="upload-button" style={{ height: "17px", display: "flex", alignItems: "center", cursor: "pointer" }}>

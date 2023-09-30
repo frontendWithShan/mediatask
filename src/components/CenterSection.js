@@ -83,7 +83,7 @@ const CenterSection = () => {
           className={selectedItem === 'system' ? 'selected-item' : ''}
           onClick={() => handleItemClick('system')}
         >
-          <FontAwesomeIcon icon={faCog} />
+          <FontAwesomeIcon icon={faCog} className='hoverhand'/>
           <span>System</span>
         </p>
         <hr />
@@ -92,21 +92,21 @@ const CenterSection = () => {
           className={selectedItem === 'branding' ? 'selected-item' : ''}
           onClick={() => handleItemClick('branding')}
         >
-          <FontAwesomeIcon icon={faBullhorn} style={{ color: "#494b50" }} />
+          <FontAwesomeIcon icon={faBullhorn}  className='hoverhand'/>
           <span>Branding</span>
         </p>
         <p
           className={selectedItem === 'notifications' ? 'selected-item' : ''}
           onClick={() => handleItemClick('notifications')}
         >
-          <FontAwesomeIcon icon={faBell} style={{ color: "#494b50" }} />
+          <FontAwesomeIcon icon={faBell}className='hoverhand'/>
           <span>Notifications</span>
         </p>
         <p
           className={selectedItem === 'groups' ? 'selected-item' : ''}
           onClick={() => handleItemClick('groups')}
         >
-          <FontAwesomeIcon icon={faUserGroup} style={{ color: "#494b50" }} />
+          <FontAwesomeIcon icon={faUserGroup}  className='hoverhand'/>
           <span>Groups</span>
         </p>
       </div>
